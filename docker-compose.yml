@@ -1,0 +1,10 @@
+version: "3"
+services:
+  ical:
+    build: .
+    image: mass10/ical
+    ports:
+      - "80:80"
+
+
+
